@@ -25,6 +25,10 @@ button {
   background: var(--main);
   color: var(--light);
   border: 2px solid var(--dark);
+  border-radius: 5px;
+  padding: 5px;
+  float: inline-start;
+  margin: 15px;
 }
 
 .montecarlo-regular {
@@ -128,5 +132,31 @@ button {
   height: auto;
   margin: 15px;
   float: left;
+}
+
+.card {
+  border: 2px solid #071952;
+  border-radius: 12px;
+  background-color: #37B7C3;
+  width: fit-content;
+  height: auto;
+  padding: 17px;
+  margin: 15px;
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.link {
+  border: 2px solid #F875AA;
+  border-radius: 12px;
+  background-color: #f6adca;
+  width: fit-content;
+  height: auto;
+  padding: 3px;
+  margin: 15px;
+  text-decoration: none;
+  color: #071952;
 }
 
