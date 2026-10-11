@@ -4,7 +4,7 @@
 
 -main #37B7C3
 -secondary #088395
--light neutral #EBF4F6
+-light neutral #acecf2
 -dark neutral #071952
 
 ##text sizes

@@ -1,7 +1,8 @@
 import ProjectCard from "./ProjectCard";
+import SummerGlobe from "./summerglobe.png"
 
 const projects = [
-  { name: "Summerglobe", link: "https://purlimurlikas-maker.github.io/Purli-s-summerglobe/" },
+  { name: "Summerglobe", image: SummerGlobe, link: "https://purlimurlikas-maker.github.io/Purli-s-summerglobe/" },
   { name: "Random space fact", link: "https://purlimurlikas-maker.github.io/Space-fact/" },
   { name: "UniverseTab", link: "https://purlimurlikas-maker.github.io/UniverseTab/" },
   { name: "Tiana's PalaceOS", link: "https://purlimurlikas-maker.github.io/Tiana-s-PalaceOS/" },
