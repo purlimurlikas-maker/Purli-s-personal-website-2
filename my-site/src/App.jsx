@@ -12,8 +12,10 @@ function About() {
       <div className="about">
       <h2>Who am I?</h2>
       <p>My name is Purli. I am a thirteen year old girl from Estonia. I am a Christian and feminist.</p>
-      <img className="me" src={mePhoto} alt="Purli" />
       </div>
+      <p>
+      <img className="me" src={mePhoto} alt="Purli" />
+      </p>
     </section>
   );
 }
@@ -21,10 +23,14 @@ function About() {
 
 function hobbies() {
   return (
-    <section className="hobbies">
+    <section>
+      <div className="hobbies">
       <h2>My hobbies</h2>
       <p>My hobbies are swimming, cooking, eating, coding and travelling. I also listen to lots of music (ESPECIALLY Beyoncé).</p>
+      </div>
+       <p>
       <img className="travel" src={travelPhoto} alt="Travel" />
+      </p>
     </section>
   );
 }

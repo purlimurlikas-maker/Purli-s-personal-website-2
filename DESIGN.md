@@ -2,10 +2,10 @@
 
 ##colors
 
--main #6EF3D6
--secondary #C6FCE5
--light neutral #EBFFFA
--dark neutral #0e767d
+-main #37B7C3
+-secondary #088395
+-light neutral #EBF4F6
+-dark neutral #071952
 
 ##text sizes
 
