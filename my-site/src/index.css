@@ -56,3 +56,14 @@ button {
   font-weight: 700;
   font-style: normal;
 }
+
+.about {
+  border: 2px solid #0e767d;
+  border-radius: 12px;
+  background-color: #C6FCE5;
+  width: fit-content;
+  height: auto;
+  padding: 17px;
+  margin: 15px;
+}
+
