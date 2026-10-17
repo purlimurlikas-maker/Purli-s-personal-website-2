@@ -37,3 +37,11 @@ export default function ThingsIMade() {
     </section>
   );
 }
+
+{projects.map((project, i) => (
+  <ProjectCard
+    key={project.name}
+    {...project}
+    style={{ "--i": i }}
+  />
+))}

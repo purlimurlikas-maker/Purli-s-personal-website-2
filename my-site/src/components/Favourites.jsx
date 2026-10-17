@@ -1,6 +1,9 @@
 export default function Favourites() {
   return (
     <section>
+      <p>
+      <img className="minecraft" src="https://i.pinimg.com/736x/9c/4e/20/9c4e206e290fb079e69cde5d628edd9a.jpg"></img>
+      </p>
       <div className="favourites">
       <h2>What are some of my favourite things?</h2>
       <p>My favourite singer is Beyoncé, my favourite films are "Hidden Figures" and "Young woman and the Sea", my favourite F1 drivers are George Russell and Kimi Antomelli, and my favourite book is "Make Your Bed" by Admiral William H. McRaven.</p>

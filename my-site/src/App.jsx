@@ -4,13 +4,14 @@ import ThingsIMade from "./components/ThingsImade";
 import Favourites from "./components/Favourites";
 import favouritefood from "./components/favouritefood";
 import hobbies from "./components/hobbies";
-import about from "./components/about"
-
+import about from "./components/about";
+import SoundButton from "./components/SoundButton";
 
 const chapters = [Hero, about, hobbies, Favourites, favouritefood, ThingsIMade];
 
 export default function App() {
   const [step, setStep] = useState(0);
+  const [soundOn, setSoundOn] = useState(true);
   const finished = step === chapters.length - 1;
 
   return (
@@ -20,7 +21,15 @@ export default function App() {
       ))}
 
       {!finished && (
-        <button onClick={() => setStep(step + 1)}>keep getting to know me</button>
+        <div>
+          <button className="mute" onClick={() => setSoundOn(!soundOn)}>
+             {soundOn ? "Turn sound off" : "Turn sound on"}
+          </button>
+
+          <SoundButton soundOn={soundOn} onClick={() => setStep(step + 1)}>
+            keep going →
+          </SoundButton>
+        </div>
       )}
     </main>
   );

@@ -9,6 +9,7 @@ export default function Hero() {
          </div>
           <p>
          <img className="travel" src={travelPhoto} alt="Travel" />
+         <img className="swim" src="https://i.pinimg.com/1200x/4e/c2/6d/4ec26d3d67b45d0b0deafc0010f1b3cf.jpg"/>
          </p>
        </section>
   );
