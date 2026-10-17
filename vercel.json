@@ -1,0 +1,5 @@
+{
+  "installCommand": "npm --prefix my-site ci",
+  "buildCommand": "npm --prefix my-site run build",
+  "outputDirectory": "my-site/dist"
+}
