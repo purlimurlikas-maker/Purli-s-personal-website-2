@@ -19,4 +19,4 @@
 
 keep going button
 
-##movement: scale
+##movement: fade
