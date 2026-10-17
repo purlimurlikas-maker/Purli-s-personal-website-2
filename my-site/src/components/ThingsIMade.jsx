@@ -30,6 +30,7 @@ const projects = [
 export default function ThingsIMade() {
   return (
     <section className="thingsimade">
+      
       <h2>things I made</h2>
       {projects.map((project) => (
         <ProjectCard key={project.name} {...project} />

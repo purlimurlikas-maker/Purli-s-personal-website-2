@@ -7,9 +7,11 @@ import hobbies from "./components/hobbies";
 import about from "./components/about";
 import SoundButton from "./components/SoundButton";
 import SoundToggle from "./SoundToggle";
+import Tipsu from "./components/Tipsu"
+import end from "./components/end"
 
 
-const chapters = [Hero, about, hobbies, Favourites, favouritefood, ThingsIMade];
+const chapters = [Hero, about, hobbies, Favourites, favouritefood, Tipsu, ThingsIMade, end];
 
 export default function App() {
   const [step, setStep] = useState(0);

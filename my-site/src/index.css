@@ -19,6 +19,7 @@ h2 {
   color: var(--dark);
   font-family: "MonteCarlo", cursive;
   font-weight: 700;
+  margin: 15px;
 }
  
 button {
@@ -236,7 +237,7 @@ button {
 
 .thingsimade > h2 {
   grid-column: 1 / -1;
-  margin: 0;
+  margin: 15px;
 }
 
 .card {
@@ -291,4 +292,60 @@ section {
     animation: none !important;
     transition: none !important;
   }
+}
+
+.Tipsu1 {
+  border: 2px solid #071952;
+  border-radius: 12px;
+  width: 300px;
+  height: auto;
+  margin: 15px;
+  float: right;
+}
+
+.Tipsu2 {
+  border: 2px solid #071952;
+  border-radius: 12px;
+  width: 300px;
+  height: auto;
+  margin: 15px;
+  float: right;
+}
+
+.Tipsu {
+  border: 2px solid #071952;
+  border-radius: 12px;
+  background-color: #37B7C3;
+  width: 300px;
+  height: auto;
+  padding: 17px;
+  margin: 15px;
+  float: left;
+}
+
+.Tipsu3 {
+  border: 2px solid #071952;
+  border-radius: 12px;
+  width: 300px;
+  height: auto;
+  margin: 15px;
+  float: right;
+}
+
+.Tipsu4 {
+  border: 2px solid #071952;
+  border-radius: 12px;
+  width: 300px;
+  height: auto;
+  margin: 15px;
+  float: right;
+}
+
+.Bey3 {
+  border: 2px solid #071952;
+  border-radius: 12px;
+  width: 500px;
+  height: auto;
+  margin: 15px;
+  float: right;
 }

@@ -6,7 +6,7 @@ export default function Favourites() {
       </p>
       <div className="favourites">
       <h2>What are some of my favourite things?</h2>
-      <p>My favourite singer is Beyoncé, my favourite films are "Hidden Figures" and "Young woman and the Sea", my favourite F1 drivers are George Russell and Kimi Antomelli, and my favourite book is "Make Your Bed" by Admiral William H. McRaven.</p>
+      <p>My favourite singer is Beyoncé, my favourite films are "Hidden Figures" and "Young woman and the Sea", my favourite F1 drivers are George Russell and Kimi Antonelli, and my favourite book is "Make Your Bed" by Admiral William H. McRaven. My favourite video game is Minecraft. </p>
       </div>
       <p>
       <img className="bey1" src="https://i.pinimg.com/originals/c2/8f/7e/c28f7e41e08af12df84d8d00f0dcf072.gif"></img>
